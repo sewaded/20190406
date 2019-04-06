@@ -1,7 +1,7 @@
 tic
 clc
 format long
-% data20190405=xlsread('C:\20190405.xlsx',1,'E2:BF1029');
+% data20190406=xlsread('C:\20190406.xlsx',1,'E2:BF1029');
 load data20190406
 data=data20190406; %读数据
 l=length(data);
