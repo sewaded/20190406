@@ -2,8 +2,8 @@ tic
 clc
 format long
 % data20190405=xlsread('C:\20190405.xlsx',1,'E2:BF1029');
-load data20190405
-data=data20190405; %读数据
+load data20190406
+data=data20190406; %读数据
 l=length(data);
 train=floor( .1 *l); %这个train就是训练集的总量
 target=1;
